@@ -1,0 +1,131 @@
+.pig-face {
+    width: 200px;
+    height: 200px;
+    background-color: #ffc0cb; /* light pink */
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    border: 2px solid black;
+    overflow: hidden;
+  }
+  
+  .snout{
+    width:50px;
+    height:50px;
+    background-color: deeppink;
+    border-radius: 50%;
+    position: relative;
+    margin: 25px auto;
+    border: 2px solid black;
+    margin-top: 140px;
+  }
+  .nostril {
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+  }
+  .nostril:nth-child(1) {
+    left: 30px;
+  }
+  
+  .nostril:nth-child(2) {
+    right: 32px;
+  }
+
+  .eye {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    border: 2px solid black;
+    right: 130px;
+  }
+  .eyee {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid black;
+    top: 50px;
+    left: 130px;
+  }
+  .eyelids {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .eyelidss {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .ear{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 520px;
+    margin-top: 1px;
+  }
+  .ears{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 725px;
+    border: 2px solid black;
+    margin-top: 1px;
+  }
+  .innerear{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    margin-left: 15px;
+    margin-top: px;
+  }
+  .innerearr{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    margin-left: 7px;
+    margin-top: px;
+  }
+  .square{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+  }
+  body{
+    background-color: aqua;
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
